@@ -1,0 +1,7 @@
+cron:
+- description: send cricket score every 5 mins
+  url: /sendscore
+  schedule: every 5 minutes
+- description: send cricket commentary every 3 mins
+  url: /sendcommentary
+  schedule: every 3 minutes
